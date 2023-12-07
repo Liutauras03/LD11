@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: rgba(187, 147, 83, 0.429);
+    padding: 10px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+   
+}
+nav ul li a {
+    color: rgb(13, 12, 12); 
+    text-decoration: none; 
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f8f9fa;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.images-section {
+    margin-top: 20px;
+}
+
+.project-image {
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.video-section,
+.youtube-section,
+.audio-section {
+    margin-top: 20px;
+}
+footer {
+    
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: rgb(242, 232, 232);
+    padding: 10px;
+    text-align: center;
+}
+/* Footer matoma, kai pasiekiamas tam tikras puslapio aukštis */
+body.show-footer footer {
+    display: block;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+/* Stiliai socialinių tinklų ikonoms */
+.social-icons {
+    display: flex;
+    gap: 10px; /* Atstumas tarp ikonų */
+}
+
+.icon {
+    font-size: 24px;
+    color: #cb0101; /* Pasirinkite norimą ikonų spalvą */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('1.jpg'); /* Pakeiskite į savo nuotraukos pavadinimą ir kelio kelią */
+    background-size: cover; /* Užtikrina, kad fono nuotrauka užims visą ekrano plotį ir aukštį */
+    background-position: center; /* Centruoja fono nuotrauką */
+    background-repeat: no-repeat; /* Neleidžia kartoti fono nuotraukos */
+}
+
+.container {
+    min-height: 50vh;
+    display: flex;
+    justify-content: left;
+    align-items: bottom;
+}
